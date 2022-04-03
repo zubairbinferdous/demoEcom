@@ -118,7 +118,7 @@
                             <div class="contact_form_title text-center">Payment By</div>
                            <div class="form-group">
                                 <ul class="logos_list " >
-                                            <li><input type="radio" name="payment" value="stripe"> <img src="{{ asset('public/frontend/images/mastercard.png') }}" style="width: 100px; height: 60px;"></li>
+                                            {{-- <li><input type="radio" name="payment" value="stripe"> <img src="{{ asset('public/frontend/images/mastercard.png') }}" style="width: 100px; height: 60px;"></li> --}}
 
                                              <li><input type="radio" name="payment" value="handcash"> <img src="{{ asset('public/frontend/images/mollie.png') }}" style="width: 100px; height: 80px;"> <a href="">handcash</a></li>
                                  </ul>
